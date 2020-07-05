@@ -19,7 +19,3 @@ else:
     print("converting now TDMS file \"%s\" to CSV file :\"%s\"" %(TDMSfilename, CSVfilename))
 
     td(TDMSfilename).as_dataframe().to_csv(CSVfilename)
-
-
-
-
