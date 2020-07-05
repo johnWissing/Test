@@ -1,6 +1,7 @@
 from nptdms import TdmsFile as td
 import os
 import sys
+
 if len(sys.argv) > 3:
     print("too many arguments!")
     sys.exit()
@@ -10,7 +11,10 @@ elif len(sys.argv) < 3:
             print("\nFormat #convert.py <TDMS file> <CSV file>\n")
             sys.exit()
     else:        
-        print("too few arguments!")
+        """
+        This is a comment
+        """
+        print("too few arguments")
     sys.exit()
 else:
 
